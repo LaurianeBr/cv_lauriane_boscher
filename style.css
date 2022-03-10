@@ -1,0 +1,114 @@
+h1 {
+	color:#845EC2;
+	text-align: center;
+	font-family:'Open Sans', sans-serif;
+	display:flex;
+}
+h2{
+	color: #4E8397;
+	text-align:center;
+	font-family: 'Mukta', sans-serif;
+}
+h3{
+	color: #B0A8B9;
+	font-family: 'Mukta', sans-serif;
+
+}
+h4{
+	color: #B0A8B9;
+	font-family: 'Mukta', sans-serif;
+	font-style: italic;
+}
+body{
+	background-color: #D5CABD;
+}
+.card {
+	background-color: white;
+	padding: 24px;
+	padding: 24px;
+    width: 70%;
+    margin: 16px auto;
+    border-radius: 6px;
+    box-shadow: 1px -1px 5px #B0A8B9;
+}
+#avatar{
+	width: 125px; 
+	height:125px;
+	object-fit: cover;
+	border-radius:5%;
+	border:4%;
+	display: flex;
+}
+
+#logotres{
+	width: 75px;
+	border-radius: 6px;
+	display: flex;
+
+}
+
+#logologeo {
+	width:180px;
+	display:flex;
+	align-self: center;
+}
+
+#logopharmavie {
+	width:120px;
+	height: 30px;
+	display: flex;
+	align-self: center;
+}
+
+#icone {
+	width: 50px;
+	height:50px;
+	display:flex;
+	align-self: center;
+}
+
+a{text-decoration: none;}
+
+.btn_linkedin {
+	background-color: #FF8066;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	border-radius: 5%;
+	display: block;
+	width:220px;
+	margin:0px auto;
+}
+.btn_linkedin:hover {
+	background-color: #D5CABD;
+	color:#B0A8B9;
+	transition: 1s;
+}
+
+.list-inline {
+	padding:0;
+	list-style: none;
+	text-align:center;
+
+}
+
+.list-inline li {
+	display: inline;
+	margin:0 16px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.fa-brands {
+	color: rgb(0, 0, 0, 0.4);
+	align-items: center;
+}
+
+.fa-brands:hover {
+	color: #B0A8B9;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-around;;
+}
